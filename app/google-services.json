@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "71561805280",
+    "firebase_url": "https://evaluacion-pizzeria-dog-default-rtdb.firebaseio.com",
+    "project_id": "evaluacion-pizzeria-dog",
+    "storage_bucket": "evaluacion-pizzeria-dog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71561805280:android:fb901311a077d0677bbf85",
+        "android_client_info": {
+          "package_name": "com.example.ev3_pizzeria_diegoorellana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71561805280-kqufab1d22k02u7l6ru4a99dbimttuc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDulk78BDKpwUtVHb7SvBEM-8zu-BzWERY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71561805280-kqufab1d22k02u7l6ru4a99dbimttuc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
