@@ -30,9 +30,9 @@ public class Pizzas {
         this.precio = precio;
     }
 
-
     @Override
     public String toString() {
-        return nombre;
+        return "Nombre: " +nombre+
+                ", Precio: $" +precio;
     }
 }

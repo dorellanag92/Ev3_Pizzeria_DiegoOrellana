@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
     public void armaPizza(View v){
         Intent i = new Intent(getBaseContext(),Arma_pizza_act.class);
         Bundle bun = new Bundle();
-        Bundle bun2 = new Bundle();
         bun.putStringArray("ATP",atp.getP_tipo());
         bun.putStringArray("ATP2", atp.getIngrediente());
         i.putExtras(bun);
@@ -61,6 +60,4 @@ public class MainActivity extends AppCompatActivity {
         i.setData(Uri.parse("https://www.youtube.com/"));
         startActivity(i);
     }
-
-
 }
