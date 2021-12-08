@@ -44,6 +44,7 @@ public class Gestion_act extends AppCompatActivity {
                 p.setId(UUID.randomUUID().toString());
                 p.setNombre(nombre.getText().toString());
                 p.setPrecio(precio.getText().toString());
+                p.setLocalizacion(localizacion.getText().toString());
 
                 reference.child("Pizzas").child(p.getId()).setValue(p);
 

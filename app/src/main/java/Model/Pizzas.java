@@ -1,7 +1,7 @@
 package Model;
 
 public class Pizzas {
-    private String id, nombre, precio;
+    private String id, nombre, precio, localizacion;
 
     public Pizzas() {
     }
@@ -28,6 +28,14 @@ public class Pizzas {
 
     public void setPrecio(String precio) {
         this.precio = precio;
+    }
+
+    public String getLocalizacion() {
+        return localizacion;
+    }
+
+    public void setLocalizacion(String localizacion) {
+        this.localizacion = localizacion;
     }
 
     @Override
