@@ -50,9 +50,9 @@ public class Listado_act extends AppCompatActivity {
         reference.child("Pizzas").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                for(DataSnapshot op: snapshot.getChildren()){ //recorremos profesionales
-                    Pizzas p = op.getValue(Pizzas.class); //le pasamos la consulta al objeto
-                    listaPizzas.add(p); // añadimos al arrelgo mi consulta
+                for(DataSnapshot op: snapshot.getChildren()){
+                    Pizzas p = op.getValue(Pizzas.class);
+                    listaPizzas.add(p);
                     ArrayAdapter adapt = new ArrayAdapter(getBaseContext(),android.R.layout.simple_list_item_1, listaPizzas);
                     lista.setAdapter(adapt);
                 }
