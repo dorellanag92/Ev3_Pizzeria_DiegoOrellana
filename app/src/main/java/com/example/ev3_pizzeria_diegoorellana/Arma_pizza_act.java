@@ -15,7 +15,6 @@ public class Arma_pizza_act extends AppCompatActivity {
     private TextView resultado;
     private ATP atp = new ATP();
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,7 +35,7 @@ public class Arma_pizza_act extends AppCompatActivity {
     public void Calcular(View v){
         int prec = 0;
         int ing = 0;
-        int resultadoP = 0;
+        int resultadoP;
         String opcion1 = tipo.getSelectedItem().toString();
         String opcion2 = ingrediente.getSelectedItem().toString();
         for(int i = 0; i<opcion1.length();i++){

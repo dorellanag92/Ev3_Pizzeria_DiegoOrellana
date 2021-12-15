@@ -71,7 +71,7 @@
             <Button
                 android:id="@+id/btn_addPizza"
                 android:layout_width="215dp"
-                android:layout_height="45dp"
+                android:layout_height="48dp"
                 android:layout_marginTop="40dp"
                 android:backgroundTint="#009688"
                 android:text="Añadir pizza"
